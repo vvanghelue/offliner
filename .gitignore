@@ -1,3 +1,4 @@
-/plugins/
+/hooks/*
+/plugins/*
 /plateforms/*
-.DS_Store
+*.DS_Store
