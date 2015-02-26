@@ -1,0 +1,124 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('icomoon.woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-addcontact:before {
+	content: "\e600";
+}
+.icon-arraowsmall:before {
+	content: "\e601";
+}
+.icon-logo:before {
+	content: "\e602";
+}
+.icon-parameters:before {
+	content: "\e603";
+}
+.icon-plus:before {
+	content: "\e604";
+}
+.icon-camera:before {
+	content: "\e605";
+}
+.icon-cercle:before {
+	content: "\e606";
+}
+.icon-Payhead:before {
+	content: "\e607";
+}
+.icon-sendsms:before {
+	content: "\e608";
+}
+.icon-share:before {
+	content: "\e609";
+}
+.icon-Sharehead:before {
+	content: "\e60a";
+}
+.icon-arraw:before {
+	content: "\e60b";
+}
+.icon-back:before {
+	content: "\e60c";
+}
+.icon-crosscancel:before {
+	content: "\e60d";
+}
+.icon-euro:before {
+	content: "\e60e";
+}
+.icon-fb:before {
+	content: "\e60f";
+}
+.icon-man:before {
+	content: "\e610";
+}
+.icon-menu:before {
+	content: "\e611";
+}
+.icon-menubar:before {
+	content: "\e612";
+}
+.icon-money:before {
+	content: "\e613";
+}
+.icon-moneyb:before {
+	content: "\e614";
+}
+.icon-moneyc:before {
+	content: "\e615";
+}
+.icon-next:before {
+	content: "\e616";
+}
+.icon-photoreverse:before {
+	content: "\e617";
+}
+.icon-pickedfull:before {
+	content: "\e618";
+}
+.icon-picked:before {
+	content: "\e619";
+}
+.icon-search:before {
+	content: "\e61a";
+}
+.icon-sharepays:before {
+	content: "\e61b";
+}
+.icon-sms:before {
+	content: "\e61c";
+}
+.icon-SP:before {
+	content: "\e61d";
+}
+.icon-timer:before {
+	content: "\e61e";
+}
+.icon-triplearraw:before {
+	content: "\e61f";
+}
+.icon-unpicked:before {
+	content: "\e620";
+}
+.icon-video:before {
+	content: "\e621";
+}

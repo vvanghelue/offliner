@@ -1,0 +1,459 @@
+* {
+  
+}
+
+* {
+  -webkit-user-select: none; /* prevent copy paste */
+}
+
+input, textarea, select {
+    -webkit-user-select: text;
+}
+
+/* CSS Mobile Reset */
+html, body
+{
+ margin: 0;
+ padding: 0; 
+ border: 0;
+}
+
+body 
+{
+ line-height:1.5;
+ font-size:16px;
+ background: #fff;
+ padding:5px;
+ color: #95A5A6;
+ background:#ecf0f1;
+ word-wrap: break-word;
+ -webkit-text-size-adjust: none;
+ font-family: 'Lato', sans-serif;
+ letter-spacing: -.2px;
+}
+
+h1, h2, h3, h4, h5, h6{ font-weight: normal; }
+
+p img { float: left; margin: 0 10px 5px 0; padding: 0; }
+
+img { border: 0; max-width: 100%; }
+
+table { width:auto; border-collapse: collapse;border-spacing: 0; }
+
+/* CSS Mobile Reset */
+html, body
+{
+	height:100%;
+	padding:0px;
+}
+
+img {
+  --background:white;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  opacity:.3;
+}
+
+.clickable:active {
+  opacity:.3;
+}
+
+.menuIcon {
+  width: 40px;
+  height: 40px;
+  top: 7px;
+  left: 10px;
+  position: absolute;
+  z-index:3;
+  font-size:30px;
+  color:white;
+}
+.menuIcon {
+  width: 40px;
+  height: 40px;
+  left: 0px;
+  position: absolute;
+  z-index: 3;
+  font-size: 30px;
+  color: white;
+  top: 0px;
+  padding: 12px;
+  padding-top: 7px;
+  width: 60px;
+  height: 60px;
+}
+
+
+
+.contentWrapper {
+  z-index:1;
+}
+  .menu {
+    background-color:rgba(0,0,0,.4);
+    color:white;
+    --padding:5px;
+    --padding-top:30px;
+    position:absolute;
+    top:0;
+    z-index:1;
+    width:100%;
+    height:100%;
+    font-weight:300;
+    font-size: 20px;
+
+
+    color:#fff;
+    --background: transparent url('http://cdn.tripwiremagazine.com/wp-content/uploads/2013/05/glonely.jpg') center center no-repeat;
+    --background: orange;
+    --background: white;
+    background-size: cover;
+
+
+  }
+  .menu ul {
+    color:white;
+    padding:0;
+    margin:0;
+  }
+  .menu ul li {
+    padding:2px 15px;
+    letter-spacing: -.2px;
+  }
+  .menu ul li.selected{
+    --background-color:#e3e3e3;
+    --background-color: rgba(255, 255, 255, .3);
+    text-shadow:0px 0px 8px rgba(255,255,255, .8);
+  }
+
+.contentWrapper{
+  background:url('img/home-bg.jpg') center center no-repeat;background-size:321px auto;
+}
+.appContent {
+  --background-color:#FFEE11;
+  background-color:#ecf0f1;
+  width:100%;
+  height:100%;
+  --box-shadow: 0px 0px 7px rgba(0, 0, 0, .3);
+  --box-shadow: rgba(0, 0, 0, 0.298039) 10px 10px 50px;
+  --box-shadow: rgba(255, 255, 255, .4) 0px 0px 30px;
+}
+.contentMask {
+  --background:rgba(230,230,250,.2);
+}
+.header {
+  font-size:1.4em;
+  font-weight:bold;
+  text-align:center;
+  padding:7px;
+  padding-top:20px;
+  padding-bottom:11px;
+  color:#8E8E93;
+  background-color: black;
+  background:#f8f8f8;
+  font-weight:400;
+  border-bottom: 1px solid #ddd;
+}
+
+/* iOS */
+
+.header {
+  padding-top:20px;
+}
+.header span, .header a {
+  margin-top:10px;
+}
+.header span:active, .header a:active {
+  opacity:.3;
+}
+
+.content {
+	position:relative;
+  overflow-y: scroll;
+  overflow-x: hidden;
+	--top:60px;
+}
+.content .contentBlock {
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.innerContent {
+	padding:10px;
+}
+.menussss {
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100%;
+  height:100%;
+  background:#444;
+  color:white;
+}
+
+table.menu {
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	background:#000;
+  color:white;
+	border-top:1px solid rgba(0, 0, 0, .2);
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, .4);
+}
+
+table.menu tr td {
+	text-align:center;
+	padding:6px;
+	font-size:1.5em;
+	color:white;
+	text-align:center;
+}
+
+table.menu tr td a {
+	color:grey;
+}
+
+table.menu tr td.selected {
+	background:#ccc;
+}
+
+table.menu tr td.selected a, table.menu tr td.selected .iconText {
+	--background:#cccccc;
+	color:black !important;
+}
+
+table.menu tr td .iconText {
+	font-size:.5em;
+	font-weight: bold;
+	letter-spacing:-.1em;
+	margin:0px;
+	padding:0px;
+	margin-top: -6px;
+}
+
+.taxiResult:hover, .taxiResult:focus {
+	background-color: rgba(255, 255, 255, .4);
+}
+
+.headerDivider {
+	height:1px;
+	margin:5px 0px;
+	--border-top:1px solid #eee;
+}
+
+/**
+	CSS LOADER
+**/
+
+.ajaxloaderMedium
+{
+  width: 70px;
+  height: 70px;
+  margin: 20px auto;
+  border: 1px solid #000;
+  border-right-color: transparent;
+  border-radius: 50%;
+  -webkit-animation: spin .7s linear infinite;
+  -moz-animation: spin .7s linear infinite;
+  -ms-animation: spin .7s linear infinite;
+  -o-animation: spin .7s linear infinite;
+  animation: spin .7s linear infinite;
+}
+
+.ajaxloader
+{
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+  border: 3px solid #000;
+  border-right-color: transparent;
+  border-radius: 50%;
+  -webkit-animation: spin 1s linear infinite;
+  -moz-animation: spin 1s linear infinite;
+  -ms-animation: spin 1s linear infinite;
+  -o-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+}
+
+.ajaxLoader20px
+{
+  width: 20px;
+  height: 20px;
+  margin: 5px auto;
+  border: 3px solid #000;
+  border-right-color: transparent;
+  border-radius: 50%;
+  -webkit-animation: spin 1s linear infinite;
+  -moz-animation: spin 1s linear infinite;
+  -ms-animation: spin 1s linear infinite;
+  -o-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+}
+
+.ajaxLoader20pxWhite
+{
+  width: 20px;
+  height: 20px;
+  margin: 5px auto;
+  border: 3px solid #fff;
+  border-right-color: transparent;
+  border-radius: 50%;
+  -webkit-animation: spin 1s linear infinite;
+  -moz-animation: spin 1s linear infinite;
+  -ms-animation: spin 1s linear infinite;
+  -o-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+}
+
+
+@-webkit-keyframes spin
+{
+  from { -webkit-transform: rotate(0deg); opacity: 0.4; }
+  50%  { -webkit-transform: rotate(180deg); opacity: 1; }
+  to   { -webkit-transform: rotate(360deg); opacity: 0.4; }
+}
+
+@-moz-keyframes spin
+{
+  from { -moz-transform: rotate(0deg); opacity: 0.4; }
+  50%  { -moz-transform: rotate(180deg); opacity: 1; }
+  to   { -moz-transform: rotate(360deg); opacity: 0.4; }
+}
+
+@-ms-keyframes spin
+{
+  from { -ms-transform: rotate(0deg); opacity: 0.4; }
+  50%  { -ms-transform: rotate(180deg); opacity: 1; }
+  to   { -ms-transform: rotate(360deg); opacity: 0.4; }
+}
+
+@-o-keyframes spin
+{
+  from { -o-transform: rotate(0deg); opacity: 0.4; }
+  50%  { -o-transform: rotate(180deg); opacity: 1; }
+  to   { -o-transform: rotate(360deg); opacity: 0.4; }
+}
+
+@keyframes spin
+{
+  from { transform: rotate(0deg); opacity: 0.2; }
+  50%  { transform: rotate(180deg); opacity: 1; }
+  to   { transform: rotate(360deg); opacity: 0.2; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+   ######################
+     CHOOSE PAYERS PAGE 
+   ###################### 
+*/
+
+
+.searchContainer {
+  padding:5px;
+  background-color: #f8f8f8;
+}
+.searchContainer input.searchContact {
+  border:1px solid #ddd;
+  border-radius: 4px;
+  margin:auto;
+}
+.contacts {
+}
+.contacts .contact {
+  --width:105.3px;
+  --height:105.3px;
+  color:#fff;
+  text-align:center;
+  float:left;
+  
+  --margin-left: 1px;
+  --margin-bottom: 1px;
+  border-left: 1px solid #F4F4F4;
+  border-bottom: 1px solid #F4F4F4;
+
+
+  overflow: hidden;
+}
+.contacts .contact .fullName {
+  padding-top:5px;
+  font-size:14px;
+  font-weight: 400;
+  letter-spacing: -.4px;
+  width:97%;
+  white-space: nowrap;
+  overflow: hidden;
+  margin:auto;
+  margin-top: 5px;
+  color:#8e8e93;
+  text-align: left;
+  padding-left: 10px;
+  min-height:18px;
+  line-height: 11px; 
+}
+
+.contacts .contact .fullName.familyName {
+  margin-top: 0px;
+  color:#c6c6c9;
+}
+
+
+.contacts .contact.selected, 
+.contacts .contact.selected .fullName,
+.contacts .contact.selected .check {
+  color:#fff;
+}
+
+.contacts .contact .initials {
+  font-size:49px;
+  line-height: 50px;
+  margin-top: 5px;
+  font-weight: 400;
+  color:#F4F4F4;
+  text-align: left;
+  padding-left:5px;
+}
+.contacts .contact .initials .firstLetter {
+  text-transform: uppercase;
+}
+.contacts .contact .initials .secondLetter {
+  text-transform: uppercase;
+  margin-left: -11px;
+}
+.contacts .contact .check {
+
+  --background:#ecf0f1;
+  border-radius:10px;
+    --position:absolute;
+    bottom:1px;
+    right:5px;
+    margin-left:76px;
+    color:#1AE27E;
+    margin-top: -18px;
+}
+.contacts .contact .unchecked {
+
+}
+
+.icon-camera {
+  padding:0px 15px 10px 16px;font-size:30px;top: 7px;position:relative;color:#8E8E93;
+}
